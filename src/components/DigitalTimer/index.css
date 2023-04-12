@@ -1,0 +1,184 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+}
+.container {
+  background-image: linear-gradient(#ffffff, #cffcf1, #cffcf1, #cffcf1);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    background-image: linear-gradient(
+      to left,
+      #cffcf1,
+      #cffcf1,
+      #cffcf1,
+      #ffffff
+    );
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .sub-container {
+    display: flex;
+  }
+  .heading {
+    font-size: 50px;
+  }
+}
+.bg-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+@media screen and (min-width: 768px) {
+  .bg-image {
+    height: 600px;
+    width: 600px;
+  }
+}
+.timer-container {
+  background-color: #ffffff;
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .timer-container {
+    height: 180px;
+    width: 180px;
+  }
+}
+.timer {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  color: #00d9f5;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .timer {
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
+.timer-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .timer-text {
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+.operating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.start-reset-container {
+  display: flex;
+}
+.start-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play-image {
+  height: 27px;
+  width: 27px;
+}
+@media screen and (min-width: 768px) {
+  .play-image {
+    height: 40px;
+    width: 40px;
+  }
+}
+.start-text {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  color: #0f172a;
+  padding-right: 25px;
+}
+@media screen and (min-width: 768px) {
+  .start-text {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+.reset-text {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  color: #0f172a;
+}
+@media screen and (min-width: 768px) {
+  .reset-text {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+.set-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #0f172a;
+}
+.increase-decrease-container {
+  display: flex;
+  align-items: center;
+}
+.inc-dec-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: 600;
+  color: #0f172a;
+  margin: 15px;
+}
+.num-text {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 500;
+  color: #0f172a;
+  background-image: linear-gradient(to right, #5ad1e4, #00d9f5);
+  height: 60px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
